@@ -1,0 +1,196 @@
+
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.margin{
+    margin: auto;
+}
+
+.topnav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo img {
+    top: 28px;
+    left: 36px;
+    width: 80px;
+    height: 80px;
+    margin: 1.5rem;
+    border-radius: 40px;
+  }
+ 
+  /* Button group 1 */
+.button-group {
+    width: 35vw;
+    margin-left: 8%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    background: #EC7735FF;
+    opacity: 1;
+    border-radius: 4px;
+  }
+  /* Button group item 1 */
+  .button-group .button-group-item:nth-child(1) {
+    position: relative;
+    width: 142px;
+    height: 36px;
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #EC7735FF;
+    background: #FFFFFFFF;
+    opacity: 1;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+  }
+  /* Button group item 1 - Hover */
+  .button-group .button-group-item:nth-child(1):hover {
+    color: #FFFFFFFF;
+    background: #D25A14FF;
+  }
+  /* Button group item 1 - Selected */
+  .button-group .button-group-item:nth-child(1):hover:active {
+    color: #EC7735FF;
+    background: #FFFFFFFF;
+  }
+  /* Button group item 1 - Disabled */
+  .button-group .button-group-item:nth-child(1):disabled {
+    color: #FFFFFFFF;
+    background: #EC7735FF;
+    opacity: 0.4;
+  }
+  /* Button group item 2 */
+  .button-group .button-group-item:nth-child(2) {
+    position: relative;
+    width: 142px;
+    height: 36px;
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #FFFFFFFF;
+    background: #EC7735FF;
+    opacity: 1;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  /* Button group item 2 - Hover */
+  .button-group .button-group-item:nth-child(2):hover {
+    color: #FFFFFFFF;
+    background: #D25A14FF;
+  }
+  /* Button group item 2 - Selected */
+  .button-group .button-group-item:nth-child(2):hover:active {
+    color: #EC7735FF;
+    background: #FFFFFFFF;
+  }
+  /* Button group item 2 - Disabled */
+  .button-group .button-group-item:nth-child(2):disabled {
+    color: #FFFFFFFF;
+    background: #EC7735FF;
+    opacity: 0.4;
+  }
+  /* Button group item 3 */
+  .button-group .button-group-item:nth-child(3) {
+    position: relative;
+    width: 142px;
+    height: 36px;
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #FFFFFFFF;
+    background: #EC7735FF;
+    opacity: 1;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+  }
+  /* Button group item 3 */
+  .button-group .button-group-item:nth-child(3):before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 1px;
+    height: 14px;
+    background: #D25A14FF;
+  }
+  /* Button group item 3 - Hover */
+  .button-group .button-group-item:nth-child(3):hover {
+    color: #FFFFFFFF;
+    background: #D25A14FF;
+  }
+  /* Button group item 3 - Selected */
+  .button-group .button-group-item:nth-child(3):hover:active {
+    color: #EC7735FF;
+    background: #FFFFFFFF;
+  }
+  /* Button group item 3 - Disabled */
+  .button-group .button-group-item:nth-child(3):disabled {
+    color: #FFFFFFFF;
+    background: #EC7735FF;
+    opacity: 0.4;
+  }
+
+  
+
+  /* Oval 158 */
+.oval {
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    width: 27%;
+    height: 57%;
+    background: #1BB4D7FF;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+
+/* Oval 157 */
+.oval_2 {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    width: 15%;
+    height: 30%;
+    background: #1BB4D7FF;
+    border-radius: 50%;
+  }
+
+/* Rectangle 221 */
+.rectangle {
+    position: absolute;
+    top: 56%;
+    left: 77%;
+    width: 14%;
+    height: 43%;
+    background: #1BB4D7FF;
+    border-radius: 8px;
+    z-index: -1;
+  }
+
+  .container{
+    height: 65vh;
+    justify-content: space-between;
+  }
+
+  .leftside{
+    width:60%;
+  }
+
+  .rightside{
+    width: 40%;
+  }
